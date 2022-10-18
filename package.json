@@ -12,10 +12,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install",
+    "scriptname": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -33,6 +37,21 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "editorconfig-checker": "^4.0.2",
+    "eslint": "^8.25.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  },
+  "husky": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "npm run lint",
+      "git add"
     ]
   }
 }
