@@ -15,14 +15,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "lint": "eslint ./src",
-    "lint:fix": "eslint ./src --fix",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prepare": "husky install",
-    "scriptname": "husky install"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -50,17 +46,6 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.10",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3"
-  },
-  "husky": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "npm run lint",
-      "git add"
-    ]
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
