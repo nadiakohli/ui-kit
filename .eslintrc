@@ -31,6 +31,7 @@
     "no-useless-escape": "off", // This rule is allow unnecessary escape characters.
     "linebreak-style": "off", // This rule is enforce consistent linebreak style.
     "react/jsx-props-no-spreading": "off", // This rule is enforces that there is no spreading for any JSX attribute.
+    "import/prefer-default-export": "off",
     "react/function-component-definition": [2, {
       "namedComponents": "arrow-function",
       "unnamedComponents": "arrow-function"

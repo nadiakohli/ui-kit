@@ -1,15 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
 
-// Styles
-const Paragraph = styled.p`
-  font-family: ${(props) => props.theme.fonts.ubuntu};
-  font-weight: lighter;
-  font-size: 25px;
-`;
+// Components
+import Typography1 from 'components/Typography';
 
 const Typography = () => (
-  <Paragraph>Typography!</Paragraph>
+  <Typography1 />
 );
 
 export default Typography;
