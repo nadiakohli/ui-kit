@@ -1,8 +1,10 @@
-import React from 'react";
+import React from 'react';
 
 // Rotes
 import MainRoutes from 'routes/MainRoutes';
 
-const App = () => <MainRoutes />;
+const App = () => {
+ return (<MainRoutes />);
+};
 
 export default App;
