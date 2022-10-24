@@ -1,27 +1,25 @@
 import React from 'react';
 
-// Components
-import {
-  Sample1,
-  Sample2,
-  Sample3,
-  Sample4,
-  Sample5,
-  Sample6,
-  Sample7,
-  Sample8,
-  Sample9,
-  Sample10,
-  Sample11,
-  Sample12,
-  Sample13,
-  Sample14,
-} from 'components/common/Samples/styled';
-
 // Styles
+import {
+  Typography1,
+  Typography2,
+  Typography3,
+  Typography4,
+  Typography5,
+  Typography6,
+  Typography7,
+  Typography8,
+  Typography9,
+  Typography10,
+  Typography11,
+  Typography12,
+  Typography13,
+  Typography14,
+} from 'components/common/Samples/styled';
 import { Table } from 'components/common/Table/styled';
 
-const TextStyleTable = () => (
+const TypographyTable = () => (
   <Table>
     <thead>
       <tr>
@@ -39,9 +37,9 @@ const TextStyleTable = () => (
         <td>32px</td>
         <td>36px</td>
         <td>
-          <Sample1>
+          <Typography1>
             The quick brown fox jumps over the lazy dog
-          </Sample1>
+          </Typography1>
         </td>
       </tr>
       <tr>
@@ -50,9 +48,9 @@ const TextStyleTable = () => (
         <td>32px</td>
         <td>36px</td>
         <td>
-          <Sample2>
+          <Typography2>
             The quick brown fox jumps over the lazy dog
-          </Sample2>
+          </Typography2>
         </td>
       </tr>
       <tr>
@@ -61,9 +59,9 @@ const TextStyleTable = () => (
         <td>24px</td>
         <td>28px</td>
         <td>
-          <Sample3>
+          <Typography3>
             The quick brown fox jumps over the lazy dog
-          </Sample3>
+          </Typography3>
         </td>
       </tr>
       <tr>
@@ -72,9 +70,9 @@ const TextStyleTable = () => (
         <td>22px</td>
         <td>24px</td>
         <td>
-          <Sample4>
+          <Typography4>
             The quick brown fox jumps over the lazy dog
-          </Sample4>
+          </Typography4>
         </td>
       </tr>
       <tr>
@@ -83,9 +81,9 @@ const TextStyleTable = () => (
         <td>20px</td>
         <td>22px</td>
         <td>
-          <Sample5>
+          <Typography5>
             The quick brown fox jumps over the lazy dog
-          </Sample5>
+          </Typography5>
         </td>
       </tr>
       <tr>
@@ -94,9 +92,9 @@ const TextStyleTable = () => (
         <td>18px</td>
         <td>22px</td>
         <td>
-          <Sample6>
+          <Typography6>
             The quick brown fox jumps over the lazy dog
-          </Sample6>
+          </Typography6>
         </td>
       </tr>
       <tr>
@@ -105,9 +103,9 @@ const TextStyleTable = () => (
         <td>16px</td>
         <td>24px</td>
         <td>
-          <Sample7>
+          <Typography7>
             The quick brown fox jumps over the lazy dog
-          </Sample7>
+          </Typography7>
         </td>
       </tr>
       <tr>
@@ -116,9 +114,9 @@ const TextStyleTable = () => (
         <td>16px</td>
         <td>20px</td>
         <td>
-          <Sample8>
+          <Typography8>
             The quick brown fox jumps over the lazy dog
-          </Sample8>
+          </Typography8>
         </td>
       </tr>
       <tr>
@@ -127,9 +125,9 @@ const TextStyleTable = () => (
         <td>16px</td>
         <td>20px</td>
         <td>
-          <Sample9>
+          <Typography9>
             The quick brown fox jumps over the lazy dog
-          </Sample9>
+          </Typography9>
         </td>
       </tr>
       <tr>
@@ -138,9 +136,9 @@ const TextStyleTable = () => (
         <td>16px</td>
         <td>20px</td>
         <td>
-          <Sample10>
+          <Typography10>
             The quick brown fox jumps over the lazy dog
-          </Sample10>
+          </Typography10>
         </td>
       </tr>
       <tr>
@@ -149,9 +147,9 @@ const TextStyleTable = () => (
         <td>14px</td>
         <td>20px</td>
         <td>
-          <Sample11>
+          <Typography11>
             The quick brown fox jumps over the lazy dog
-          </Sample11>
+          </Typography11>
         </td>
       </tr>
       <tr>
@@ -160,9 +158,9 @@ const TextStyleTable = () => (
         <td>14px</td>
         <td>20px</td>
         <td>
-          <Sample12>
+          <Typography12>
             The quick brown fox jumps over the lazy dog
-          </Sample12>
+          </Typography12>
         </td>
       </tr>
       <tr>
@@ -171,9 +169,9 @@ const TextStyleTable = () => (
         <td>13px</td>
         <td>20px</td>
         <td>
-          <Sample13>
+          <Typography13>
             The quick brown fox jumps over the lazy dog
-          </Sample13>
+          </Typography13>
         </td>
       </tr>
       <tr>
@@ -182,13 +180,13 @@ const TextStyleTable = () => (
         <td>13px</td>
         <td>20px</td>
         <td>
-          <Sample14>
+          <Typography14>
             The quick brown fox jumps over the lazy dog
-          </Sample14>
+          </Typography14>
         </td>
       </tr>
     </tbody>
   </Table>
 );
 
-export default TextStyleTable;
+export default TypographyTable;

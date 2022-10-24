@@ -7,10 +7,10 @@ export const Table = styled.table`
 
   & thead {
     height: 64px;
-    color: ${(props) => props.theme.colors.white};
+    color: ${({ theme: { colors: { white } } }) => white};
 
     & th {
-      background-color: ${(props) => props.theme.colors.primary};
+      background-color: ${({ theme: { colors: { primary } } }) => primary};
     }
 
     & th:first-child {
@@ -38,7 +38,7 @@ export const Table = styled.table`
       padding-left: 55px;
       font-weight: 400;
       font-size: 16px;
-      color: ${(props) => props.theme.colors.gray2};
+      color: ${({ theme: { colors: { gray2 } } }) => gray2};
     }
   }
 `;
