@@ -48,7 +48,7 @@ const Iconography = () => (
   <Wrap>
     <ContentWrap>
       <Title>
-        <span>03.</span>
+        <span>03. </span>
         Iconography
       </Title>
       <BlockWrap>
