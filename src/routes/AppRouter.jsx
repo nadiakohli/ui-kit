@@ -5,11 +5,11 @@ import { Routes, Route } from 'react-router-dom';
 import Typography from 'pages/Typography';
 import Colors from 'pages/Colors';
 
-const MainRoutes = () => (
+const AppRouter = () => (
   <Routes>
     <Route path="/typography" element={<Typography />} />
     <Route path="/colors" element={<Colors />} />
   </Routes>
 );
 
-export default MainRoutes;
+export default AppRouter;
