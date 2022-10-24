@@ -1,8 +1,8 @@
 import React from 'react';
 
 // Rotes
-import MainRoutes from 'routes/MainRoutes';
+import AppRouter from 'routes/AppRouter';
 
-const App = () => <MainRoutes />;
+const App = () => <AppRouter />;
 
 export default App;

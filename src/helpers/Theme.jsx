@@ -24,6 +24,7 @@ const theme = {
     gray6: '#D1D5DB',
     gray7: '#F3F4F6',
     white: '#fff',
+    whiteSmoke: '#f3f4f6',
     info: '#A0C3FF',
     success: '#76CA66',
     warning: '#FBC756',
