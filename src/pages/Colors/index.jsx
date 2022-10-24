@@ -17,7 +17,7 @@ const Colors = () => (
   <Wrap>
     <ContentWrap>
       <Title>
-        <span>02.</span>
+        <span>02. </span>
         Colors
       </Title>
       <BlockWrap>

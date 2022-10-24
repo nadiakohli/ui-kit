@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Rotes
-import AppRouter from 'routes/MainRoutes';
+import AppRouter from 'routes/AppRouter';
 
 const App = () => <AppRouter />;
 
