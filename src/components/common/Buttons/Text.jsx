@@ -22,14 +22,17 @@ const Button = styled.button`
   }
 
   &:disabled {
-    background-color: ${({ theme: { colors: { gray5 } } }) => gray5};
+    color: ${({ theme: { colors: { gray5 } } }) => gray5};
+    background-color: transparent;
+    cursor: initial;
   }
 `;
 
-const Text = ({ text }) => <Button>{text}</Button>;
+const Text = ({ text, disabled }) => <Button disabled={disabled}>{text}</Button>;
 
 Text.propTypes = {
   text: PropTypes.string.isRequired,
+  disabled: PropTypes.bool.isRequired,
 };
 
 export default Text;

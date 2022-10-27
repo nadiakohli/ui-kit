@@ -26,6 +26,7 @@ const Button = styled.button`
 
   &:disabled {
     background-color: ${({ theme: { colors: { gray5 } } }) => gray5};
+    cursor: initial;
   }
 
   & svg {
@@ -37,8 +38,8 @@ const Button = styled.button`
 
 `;
 
-const Tags = ({ text }) => (
-  <Button>
+const Tags = ({ text, disabled }) => (
+  <Button disabled={disabled}>
     {text}
     <Close />
   </Button>
@@ -46,6 +47,7 @@ const Tags = ({ text }) => (
 
 Tags.propTypes = {
   text: PropTypes.string.isRequired,
+  disabled: PropTypes.bool.isRequired,
 };
 
 export default Tags;

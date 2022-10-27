@@ -42,6 +42,7 @@ const Container = styled.button`
 
           &:disabled {
             background-color: ${({ theme: { colors: { gray5 } } }) => gray5};
+            cursor: initial;
           }
         `;
       case 'medium':
@@ -74,6 +75,7 @@ const Container = styled.button`
 
           &:disabled {
             background-color: ${({ theme: { colors: { gray5 } } }) => gray5};
+            cursor: initial;
           }
         `;
       case 'outline':
@@ -99,6 +101,8 @@ const Container = styled.button`
           &:disabled {
             color: ${({ theme: { colors: { gray5 } } }) => gray5};
             border: 2px solid ${({ theme: { colors: { gray5 } } }) => gray5};
+            cursor: initial;
+            background-color: ${({ theme: { colors: { white } } }) => white};
           }
         `;
       case 'primary':
@@ -109,14 +113,15 @@ const Container = styled.button`
   }
 `;
 
-const Button = ({ children, type }) => (
-  <Container type={type}>
+const Button = ({ disabled, children, type }) => (
+  <Container disabled={disabled} type={type}>
     {children}
   </Container>
 );
 
 Button.propTypes = {
   type: PropTypes.string.isRequired,
+  disabled: PropTypes.bool.isRequired,
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 // Icons
 import { ReactComponent as ThreeDots } from 'assets/images/svg/dots.svg';
@@ -24,17 +25,16 @@ const Button = styled.button`
 
     & path:active {
       fill: ${({ theme: { colors: { colbat } } }) => colbat};
-    } 
-
-    & path:disabled {
-      fill: ${({ theme: { colors: { gray5 } } }) => gray5};
     }
   }
-
 `;
 
-const Dots = () => (
-  <Button><ThreeDots /></Button>
+const Dots = ({ disabled }) => (
+  <Button disabled={disabled}><ThreeDots /></Button>
 );
+
+Dots.propTypes = {
+  disabled: PropTypes.bool.isRequired,
+};
 
 export default Dots;

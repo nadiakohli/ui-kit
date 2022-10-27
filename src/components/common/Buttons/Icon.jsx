@@ -1,5 +1,6 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 // Icons
 import { ReactComponent as Plus } from 'assets/images/svg/plus.svg';
@@ -27,6 +28,7 @@ const Button = styled.button`
 
   &:disabled {
     background-color: ${({ theme: { colors: { gray5 } } }) => gray5};
+    cursor: inherit;
   }
 
   & svg {
@@ -39,10 +41,14 @@ const Button = styled.button`
   }
 `;
 
-const Icon = () => (
-  <Button>
+const Icon = ({ disabled }) => (
+  <Button disabled={disabled}>
     <Plus />
   </Button>
 );
+
+Icon.propTypes = {
+  disabled: PropTypes.bool.isRequired,
+};
 
 export default Icon;

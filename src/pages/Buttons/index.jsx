@@ -90,7 +90,9 @@ const Buttons = () => {
               <tbody>
                 <tr>
                   <td><H3>Rest</H3></td>
-                  <td><Button type="normal">Button</Button></td>
+                  <td>
+                    <Button type="normal">Button</Button>
+                  </td>
                   <td>
                     <Button type="iconText">
                       <Pen />
@@ -135,18 +137,18 @@ const Buttons = () => {
                 </tr>
                 <tr>
                   <td><H3>Disabled</H3></td>
-                  <td><Button type="normal">Button</Button></td>
+                  <td><Button type="normal" disabled>Button</Button></td>
                   <td>
-                    <Button type="iconText">
+                    <Button type="iconText" disabled>
                       <Pen />
                       Button
                     </Button>
                   </td>
-                  <td><Button type="outline">Button</Button></td>
-                  <td><Tags text="Button" /></td>
-                  <td><Text text="Button" /></td>
-                  <td><Icon /></td>
-                  <td><Dots /></td>
+                  <td><Button type="outline" disabled>Button</Button></td>
+                  <td><Tags text="Button" disabled /></td>
+                  <td><Text text="Button" disabled /></td>
+                  <td><Icon disabled /></td>
+                  <td><Dots disabled /></td>
                 </tr>
               </tbody>
             </Table>
