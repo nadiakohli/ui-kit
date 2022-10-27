@@ -1,12 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
 
-// Icons
-import { ReactComponent as Close } from 'assets/images/svg/close.svg';
-
-// Styles
-const Button = styled.button`
+export const Button = styled.button`
   width: 100px;
   height: 30px;
   border: none;
@@ -35,19 +29,4 @@ const Button = styled.button`
     height: 10px;
     margin-left: 13px;
   }
-
 `;
-
-const Tags = ({ text, disabled }) => (
-  <Button disabled={disabled}>
-    {text}
-    <Close />
-  </Button>
-);
-
-Tags.propTypes = {
-  text: PropTypes.string.isRequired,
-  disabled: PropTypes.bool.isRequired,
-};
-
-export default Tags;

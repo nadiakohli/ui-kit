@@ -1,9 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
 
-// Styles
-const Button = styled.button`
+export const Button = styled.button`
   color: ${({ theme: { colors: { primary } } }) => primary};
   height: 32px;
   width: 100px;
@@ -27,12 +24,3 @@ const Button = styled.button`
     cursor: initial;
   }
 `;
-
-const Text = ({ text, disabled }) => <Button disabled={disabled}>{text}</Button>;
-
-Text.propTypes = {
-  text: PropTypes.string.isRequired,
-  disabled: PropTypes.bool.isRequired,
-};
-
-export default Text;

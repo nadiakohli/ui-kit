@@ -1,12 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
 
-// Icons
-import { ReactComponent as Plus } from 'assets/images/svg/plus.svg';
-
-// Styles
-const Button = styled.button`
+export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,15 +34,3 @@ const Button = styled.button`
     }
   }
 `;
-
-const Icon = ({ disabled }) => (
-  <Button disabled={disabled}>
-    <Plus />
-  </Button>
-);
-
-Icon.propTypes = {
-  disabled: PropTypes.bool.isRequired,
-};
-
-export default Icon;

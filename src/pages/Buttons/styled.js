@@ -39,7 +39,6 @@ export const H2 = styled.h2`
 `;
 
 export const BlocksWrap = styled.div`
-  /* width: 85%; */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -58,6 +57,7 @@ export const ButtonWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 15px;
 `;
 
 export const Table = styled.table`
@@ -108,30 +108,3 @@ export const Table = styled.table`
     }
   }
 `;
-
-// export const IconsBlockWrap = styled.div`
-//   margin-bottom: 65px;
-
-//   &:last-child {
-//     margin-bottom: 0;
-//   }
-
-//   & div {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: space-between;
-//     width: 475px;
-//     margin-bottom: 15px;
-//   }
-// `;
-
-// export const IconsWrap = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   width: 70%;
-
-//   & svg {
-//     width: 15px;
-//     height: 15px;
-//   }
-// `;
