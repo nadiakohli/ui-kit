@@ -35,6 +35,7 @@ const theme = {
   },
 };
 
+// Global style
 export const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Ubuntu-Light';
