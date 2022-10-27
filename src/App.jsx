@@ -3,6 +3,14 @@ import React from 'react';
 // Rotes
 import MainRoutes from 'routes/MainRoutes';
 
-const App = () => <MainRoutes />;
+// Theme
+import Theme, { GlobalStyle } from 'styles/Theme';
+
+const App = () => (
+  <Theme>
+    <MainRoutes />
+    <GlobalStyle />
+  </Theme>
+);
 
 export default App;
