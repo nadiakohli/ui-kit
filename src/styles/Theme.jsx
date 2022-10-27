@@ -8,14 +8,14 @@ import regular from 'assets/fonts/Ubuntu-Regular.ttf';
 import medium from 'assets/fonts/Ubuntu-Medium.ttf';
 import bold from 'assets/fonts/Ubuntu-Bold.ttf';
 
-const theme = {
+export const theme = {
   colors: {
     primary: '#116ACC',
     secondary1: '#182233',
     secondary2: '#B3CEE2',
     secondary3: '#D9DDE7',
     secondary4: '#FD4E5D',
-    black: '#000',
+    black: '#000000',
     gray1: '#1F2937',
     gray2: '#374151',
     gray3: '#4B5563',
@@ -23,7 +23,7 @@ const theme = {
     gray5: '#9CA3AF',
     gray6: '#D1D5DB',
     gray7: '#F3F4F6',
-    white: '#fff',
+    white: '#ffffff',
     whiteSmoke: '#f3f4f6',
     info: '#A0C3FF',
     success: '#76CA66',
