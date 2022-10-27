@@ -60,22 +60,18 @@ export const ContentWrap = styled.div`
     }
   }}
   }
-  && {
-    ${({ grayColor }) => {
-    switch (grayColor) {
-      case 'title':
-        return changeColor;
-      case 'code':
-        return changeColor;
-      case 'both':
-        return changeColor;
+  /* && {
+    ${({ theme }) => {
+    switch (theme) {
+      case 'success':
+        return css`${({ theme: { colors: { white } } }) => white};`;
       default:
         return css`
           color: ${({ theme: { colors: { white } } }) => white};
         `;
     }
   }}
-  }
+  } */
 `;
 
 export const TitleSpan = styled.span`
@@ -83,7 +79,7 @@ export const TitleSpan = styled.span`
   font-weight: 500;
   font-family: ${({ theme: { fonts: { ubuntu } } }) => ubuntu};
   font-weight: 700;
-  color: ${({ grayColor }) => grayColor === 'both' ? '#374151' : 'white'};
+  color: ${({ titleColor }) => titleColor || 'white'};
 `;
 
 export const CodeSpan = styled.span`
@@ -92,5 +88,5 @@ export const CodeSpan = styled.span`
   opacity: 0.8;
   text-transform: uppercase;
   font-family: ${({ theme: { fonts: { ubuntu } } }) => ubuntu};
-  color: ${({ grayColor }) => grayColor === 'both' || grayColor === 'code' ? '#374151' : 'white'};
+  color: ${({ codeColor }) => codeColor || 'white'};
 `;

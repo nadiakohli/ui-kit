@@ -4,6 +4,7 @@ import React from 'react';
 import ColorSquare from 'components/common/ColorSquare';
 
 // Styles
+import { theme } from 'styles/Theme';
 import {
   Wrap,
   ContentWrap,
@@ -26,29 +27,29 @@ const Colors = () => (
           <ColorSquare
             type="large"
             title="Primary"
-            backgroundColor="#116ACC"
+            backgroundColor={theme.colors.primary}
           />
           <ColorSquare
             type="large"
             title="Secondary 1"
-            backgroundColor="#182233"
+            backgroundColor={theme.colors.secondary1}
           />
           <ColorSquare
             type="large"
-            grayColor="code"
             title="Secondary 2"
-            backgroundColor="#B3CEE2"
+            backgroundColor={theme.colors.secondary2}
+            codeColor={theme.colors.gray2}
           />
           <ColorSquare
             type="large"
-            grayColor="code"
             title="Secondary 3"
-            backgroundColor="#D9DDE7"
+            backgroundColor={theme.colors.secondary3}
+            codeColor={theme.colors.gray2}
           />
           <ColorSquare
             type="large"
             title="Secondary 4"
-            backgroundColor="#FD4E5D"
+            backgroundColor={theme.colors.secondary4}
           />
         </SquareWrap>
       </BlockWrap>
@@ -58,49 +59,51 @@ const Colors = () => (
           <ColorSquare
             type="small"
             title="Black"
-            backgroundColor="#000000"
+            backgroundColor={theme.colors.black}
           />
           <ColorSquare
             type="small"
             title="Gray 1"
-            backgroundColor="#1F2937"
+            backgroundColor={theme.colors.gray1}
           />
           <ColorSquare
             type="small"
             title="Gray 2"
-            backgroundColor="#374151"
+            backgroundColor={theme.colors.gray2}
           />
           <ColorSquare
             type="small"
             title="Gray 3"
-            backgroundColor="#4B5563"
+            backgroundColor={theme.colors.gray3}
           />
           <ColorSquare
             type="small"
             title="Gray 4"
-            backgroundColor="#6B7280"
+            backgroundColor={theme.colors.gray4}
           />
           <ColorSquare
             type="small"
             title="Gray 5"
-            backgroundColor="#9CA3AF"
+            backgroundColor={theme.colors.gray5}
           />
           <ColorSquare
             type="small"
             title="Gray 6"
-            backgroundColor="#D1D5DB"
+            backgroundColor={theme.colors.gray6}
           />
           <ColorSquare
             type="small"
             title="Gray 7"
-            grayColor="both"
-            backgroundColor="#F3F4F6"
+            backgroundColor={theme.colors.gray7}
+            titleColor={theme.colors.gray2}
+            codeColor={theme.colors.gray2}
           />
           <ColorSquare
             type="small"
             title="White"
-            grayColor="both"
-            backgroundColor="#ffffff"
+            backgroundColor={theme.colors.white}
+            titleColor={theme.colors.gray2}
+            codeColor={theme.colors.gray2}
           />
         </SquareWrap>
       </BlockWrap>
@@ -110,22 +113,22 @@ const Colors = () => (
           <ColorSquare
             type="small"
             title="Info"
-            backgroundColor="#A0C3FF"
+            backgroundColor={theme.colors.info}
           />
           <ColorSquare
             type="small"
             title="Success"
-            backgroundColor="#76CA66"
+            backgroundColor={theme.colors.success}
           />
           <ColorSquare
             type="small"
             title="Warning"
-            backgroundColor="#FBC756"
+            backgroundColor={theme.colors.warning}
           />
           <ColorSquare
             type="small"
             title="Error"
-            backgroundColor="#BA0000"
+            backgroundColor={theme.colors.error}
           />
         </SquareWrap>
       </BlockWrap>

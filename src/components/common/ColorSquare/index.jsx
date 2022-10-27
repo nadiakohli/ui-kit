@@ -10,29 +10,16 @@ import {
 } from './styled';
 
 const ColorSquare = ({
+  titleColor,
+  codeColor,
   type,
   title,
-  grayColor,
   backgroundColor,
 }) => (
-  <Wrap
-    type={type}
-    backgroundColor={backgroundColor}
-  >
-    <ContentWrap
-      type={type}
-      grayColor={grayColor}
-    >
-      <TitleSpan
-        grayColor={grayColor}
-      >
-        {title}
-      </TitleSpan>
-      <CodeSpan
-        grayColor={grayColor}
-      >
-        {backgroundColor}
-      </CodeSpan>
+  <Wrap type={type} backgroundColor={backgroundColor}>
+    <ContentWrap type={type}>
+      <TitleSpan titleColor={titleColor}>{title}</TitleSpan>
+      <CodeSpan codeColor={codeColor}>{backgroundColor}</CodeSpan>
     </ContentWrap>
   </Wrap>
 );
@@ -40,8 +27,9 @@ const ColorSquare = ({
 ColorSquare.propTypes = {
   type: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  grayColor: PropTypes.string.isRequired,
   backgroundColor: PropTypes.string.isRequired,
+  titleColor: PropTypes.string.isRequired,
+  codeColor: PropTypes.string.isRequired,
 };
 
 export default ColorSquare;
