@@ -11,6 +11,10 @@ import bold from 'assets/fonts/Ubuntu-Bold.ttf';
 const theme = {
   colors: {
     primary: '#116ACC',
+    blueKoi: '#6794D5',
+    colbat: '#21498a',
+    geyser: '#d2e0f3',
+    casper: '#a7c2e7',
     secondary1: '#182233',
     secondary2: '#B3CEE2',
     secondary3: '#D9DDE7',
