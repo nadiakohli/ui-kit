@@ -1,36 +1,36 @@
 import React from 'react';
 
 // Icons
-import { ReactComponent as Alarm } from 'assets/images/svg/alarm.svg';
-import { ReactComponent as Arrow } from 'assets/images/svg/arrow.svg';
-import { ReactComponent as Calendar } from 'assets/images/svg/calendar.svg';
-import { ReactComponent as CkeckboxChecked } from 'assets/images/svg/checkboxChecked.svg';
-import { ReactComponent as Checkbox } from 'assets/images/svg/checkbox.svg';
-import { ReactComponent as CheckboxCheckedSolid } from 'assets/images/svg/checkboxCheckedSolid.svg';
-import { ReactComponent as CkeckboxSquare } from 'assets/images/svg/checkboxSquare.svg';
-import { ReactComponent as CircleCheckOutline } from 'assets/images/svg/circleCheckOutline.svg';
-import { ReactComponent as CircleCheck } from 'assets/images/svg/circleCheck.svg';
-import { ReactComponent as CloseBig } from 'assets/images/svg/closeBig.svg';
-import { ReactComponent as Cursor } from 'assets/images/svg/cursor.svg';
-import { ReactComponent as Error } from 'assets/images/svg/error.svg';
-import { ReactComponent as ErrorOutline } from 'assets/images/svg/errorOutline.svg';
-import { ReactComponent as Filter } from 'assets/images/svg/filter.svg';
-import { ReactComponent as FilterOutline } from 'assets/images/svg/filterOutline.svg';
-import { ReactComponent as HelpCircleSolid } from 'assets/images/svg/helpCircleSolid.svg';
-import { ReactComponent as HelpCircleOutline } from 'assets/images/svg/helpCircleOutline.svg';
-import { ReactComponent as HomeAltFill } from 'assets/images/svg/homeAltFill.svg';
-import { ReactComponent as HomeAltOutline } from 'assets/images/svg/homeAltOutline.svg';
-import { ReactComponent as Mail } from 'assets/images/svg/mail.svg';
-import { ReactComponent as MessageWritting } from 'assets/images/svg/messageWritting.svg';
-import { ReactComponent as Notification } from 'assets/images/svg/notification.svg';
-import { ReactComponent as Settings } from 'assets/images/svg/settings.svg';
-import { ReactComponent as SettingsFilled } from 'assets/images/svg/settingsFilled.svg';
-import { ReactComponent as Slider } from 'assets/images/svg/slider03.svg';
-import { ReactComponent as TrashFull } from 'assets/images/svg/trashFull.svg';
-import { ReactComponent as UserSquare } from 'assets/images/svg/userSquare.svg';
-import { ReactComponent as Vector } from 'assets/images/svg/vector.svg';
-import { ReactComponent as Warning } from 'assets/images/svg/warning.svg';
-import { ReactComponent as WarningOutline } from 'assets/images/svg/warningOutline.svg';
+import { ReactComponent as Alarm } from 'assets/icons/alarm.svg';
+import { ReactComponent as Arrow } from 'assets/icons/arrow.svg';
+import { ReactComponent as Calendar } from 'assets/icons/calendar.svg';
+import { ReactComponent as CkeckboxChecked } from 'assets/icons/checkboxChecked.svg';
+import { ReactComponent as Checkbox } from 'assets/icons/checkbox.svg';
+import { ReactComponent as CheckboxCheckedSolid } from 'assets/icons/checkboxCheckedSolid.svg';
+import { ReactComponent as CkeckboxSquare } from 'assets/icons/checkboxSquare.svg';
+import { ReactComponent as CircleCheckOutline } from 'assets/icons/circleCheckOutline.svg';
+import { ReactComponent as CircleCheck } from 'assets/icons/circleCheck.svg';
+import { ReactComponent as CloseBig } from 'assets/icons/closeBig.svg';
+import { ReactComponent as Cursor } from 'assets/icons/cursor.svg';
+import { ReactComponent as Error } from 'assets/icons/error.svg';
+import { ReactComponent as ErrorOutline } from 'assets/icons/errorOutline.svg';
+import { ReactComponent as Filter } from 'assets/icons/filter.svg';
+import { ReactComponent as FilterOutline } from 'assets/icons/filterOutline.svg';
+import { ReactComponent as HelpCircleSolid } from 'assets/icons/helpCircleSolid.svg';
+import { ReactComponent as HelpCircleOutline } from 'assets/icons/helpCircleOutline.svg';
+import { ReactComponent as HomeAltFill } from 'assets/icons/homeAltFill.svg';
+import { ReactComponent as HomeAltOutline } from 'assets/icons/homeAltOutline.svg';
+import { ReactComponent as Mail } from 'assets/icons/mail.svg';
+import { ReactComponent as MessageWritting } from 'assets/icons/messageWritting.svg';
+import { ReactComponent as Notification } from 'assets/icons/notification.svg';
+import { ReactComponent as Settings } from 'assets/icons/settings.svg';
+import { ReactComponent as SettingsFilled } from 'assets/icons/settingsFilled.svg';
+import { ReactComponent as Slider } from 'assets/icons/slider03.svg';
+import { ReactComponent as TrashFull } from 'assets/icons/trashFull.svg';
+import { ReactComponent as UserSquare } from 'assets/icons/userSquare.svg';
+import { ReactComponent as Vector } from 'assets/icons/vector.svg';
+import { ReactComponent as Warning } from 'assets/icons/warning.svg';
+import { ReactComponent as WarningOutline } from 'assets/icons/warningOutline.svg';
 
 // Styles
 import {
