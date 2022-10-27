@@ -1,10 +1,10 @@
 import React from 'react';
 
-// Theme
-import Theme, { GlobalStyle } from 'helpers/Theme';
-
-// Rotes
+// Routes
 import AppRouter from 'routes/AppRouter';
+
+// Theme
+import Theme, { GlobalStyle } from 'styles/Theme';
 
 const App = () => (
   <Theme>
