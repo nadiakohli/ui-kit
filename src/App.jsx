@@ -1,8 +1,16 @@
 import React from 'react';
 
-// Rotes
+// Routes
 import AppRouter from 'routes/AppRouter';
 
-const App = () => <AppRouter />;
+// Theme
+import Theme, { GlobalStyle } from 'styles/Theme';
+
+const App = () => (
+  <Theme>
+    <AppRouter />
+    <GlobalStyle />
+  </Theme>
+);
 
 export default App;

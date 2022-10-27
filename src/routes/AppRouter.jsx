@@ -1,15 +1,17 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Pages
 import Typography from 'pages/Typography';
 import Iconography from 'pages/Iconography';
 
 const AppRouter = () => (
-  <Routes>
-    <Route path="/typography" element={<Typography />} />
-    <Route path="/iconography" element={<Iconography />} />
-  </Routes>
+  <Router>
+    <Routes>
+      <Route path="/typography" element={<Typography />} />
+      <Route path="/iconography" element={<Iconography />} />
+    </Routes>
+  </Router>
 );
 
 export default AppRouter;
